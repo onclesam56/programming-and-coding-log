@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    color: green;
+    font-family: Lucida Sans, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+    font-size: 20px;
+}
+
+img{
+    border: 1px solid whitesmoke;
+    display: inline-block;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+#A {
+    text-align: center;
+}
+
+#B {
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    padding: 20px;
+    display: inline-block;
+    margin-left: 110px;
+}
+
+#bc {
+    text-decoration: underline 1px whitesmoke;
+}
