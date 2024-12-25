@@ -1,12 +1,12 @@
 body {
     background-color: #f8f9fa;
-    color: black;
+    color: rgb(0, 0, 0);
     font-family: sans-serif;
     font-size: 20px;
 }
 
 img{
-    border: 1px solid whitesmoke;
+    border: 1px solid black;
     display: inline-block;
 }
 
@@ -18,14 +18,19 @@ h1 {
     text-align: center;
 }
 
-#B {
-    border: 2px solid whitesmoke;
+#C {
+    border: 2px solid black;
     border-radius: 20px;
     padding: 20px;
     display: inline-block;
-    margin-left: 110px;
+    margin-left: 550px;
 }
 
-#bc {
-    text-decoration: underline 1px whitesmoke;
+#D{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    display: inline-block;
+    margin-left: 1260px;
+    margin-top: 50px;
 }
