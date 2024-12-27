@@ -1,3 +1,7 @@
+.phone{
+    visibility: collapse;
+}
+
 .pc{
     visibility: visible;
 }
@@ -6,7 +10,7 @@ body {
     background-color: #f8f9fa;
     color: rgb(0, 0, 0);
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 10px;
 }
 
 img{
@@ -40,7 +44,7 @@ h1 {
 }
 
 #a {
-    text-align: 0 auto;
+    text-align: center;
 }
 
 #c {
@@ -60,13 +64,9 @@ h1 {
     margin-top: 5px;
 }
 
-.phone{
-    visibility: hidden;
-}
-
 @media only screen and (max-width: 430px ){
     .pc{
-        visibility: hidden;
+        visibility: collapse;
     }
 
     .phone{
