@@ -1,3 +1,7 @@
+.pc{
+    visibility: visible;
+}
+
 body {
     background-color: #f8f9fa;
     color: rgb(0, 0, 0);
@@ -6,7 +10,7 @@ body {
 }
 
 img{
-    border: 1px solid black;
+    border: 2px solid black;
     display: inline-block;
 }
 
@@ -23,7 +27,7 @@ h1 {
     border-radius: 20px;
     padding: 20px;
     display: inline-block;
-    margin-left: 550px;
+    margin-left: 580px;
 }
 
 #D{
@@ -31,6 +35,41 @@ h1 {
     border-radius: 20px;
     padding: 20px;
     display: inline-block;
-    margin-left: 1260px;
-    margin-top: 50px;
+    margin-left: 1285px;
+    margin-top: 25px;
+}
+
+#a {
+    text-align: 0 auto;
+}
+
+#c {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    display: inline-block;
+    margin-left: 0 auto;
+}
+
+#d{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    display: inline-block;
+    margin-left: 0 auto;
+    margin-top: 5px;
+}
+
+.phone{
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 430px ){
+    .pc{
+        visibility: hidden;
+    }
+
+    .phone{
+        visibility: visible;
+    }
 }
